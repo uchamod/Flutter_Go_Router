@@ -115,6 +115,21 @@ class _HomepageState extends State<Homepage> {
                   "go and back",
                   style: TextStyle(color: Colors.black),
                 )),
+                const SizedBox(height: 40,),
+                //route to the product page
+            ElevatedButton(
+                style: const ButtonStyle(
+                    backgroundColor: WidgetStatePropertyAll(Colors.red)),
+                onPressed: () {
+                  //set up the route page
+                  //go to the productpage
+                  
+                  GoRouter.of(context).pushNamed(RouteNames.product);
+                },
+                child: const Text(
+                  "go and product page",
+                  style: TextStyle(color: Colors.white,fontSize: 20),
+                )),
           ],
         ),
       ),

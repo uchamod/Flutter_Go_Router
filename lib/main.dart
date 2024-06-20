@@ -11,11 +11,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     //link the router class to the material app
-    return  MaterialApp.router(
+    return MaterialApp.router(
       debugShowCheckedModeBanner: false,
       //config the routercalss and direct to the homepage
       routerConfig: RouterClass().router,
-      
     );
   }
 }

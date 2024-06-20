@@ -5,5 +5,7 @@ class RouteNames{
   static const String user = 'user';
   static const String profileChild = 'userchild';
   static const String agePage = 'agepage';
+  static const String product = 'product';
+  static const String productdetails = 'productdetails';
 
 }
